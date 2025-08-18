@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <style>table,th,tr,td{
+        border:solid burlywood 1px;
+        padding: 3px;
+        text-align: center;
+    }
+    </style>
+    <table style="color: rgb(10, 204, 139);">
+        <tr>
+            <th>Teams</th>
+            <th>City</th>
+            <th>Home Ground</th>
+            <th>Debut</th>
+            <th>Owner</th>
+        </tr>
+        <tr>
+            <td>Chennai Super Kings</td>
+            <td>Chennai,TamilNadu</td>
+            <td>M.A.Chidambaram Stadium</td>
+            <td>2008</td>
+            <td><ul><li>N.Srinivasan</li></ul></td>
+        </tr>
+        <tr>
+            <td>Delhi Capitals</td>
+            <td>New Delhi,Delhi</td>
+            <td>Arun Jaitley Stadium</td>
+            <td></td>
+            <td><ul>
+                <li>Sajjan Jindal</li>
+                <li>G.M.Rao</li>
+            </ul></td>
+        </tr>
+        <tr>
+            <td>Royal Challengers Bangalore</td>
+            <td>Bangalore,Karnataka</td>
+            <td>M.Chinnaswamy</td>
+            <td>2008</td>
+            <td><ul>
+                <li>Monster Bharani</li>
+            </ul></td>
+        </tr>
+        <tr>
+            <td>Gujarat Titans</td>
+            <td>Gujarat</td>
+            <td>Narendra Modi Stadium</td>
+            <td>2022</td>
+            <td><ul>
+                <li>Steve Koltes</li>
+            </ul></td>
+
+        </tr>
+        <tr>
+            <td>Mumbai Indian</td>
+            <td>Mumbai</td>
+            <td>Vankadai</td>
+            <td>2008</td>
+            <td><ul>
+                <li>Guru</li>
+            </ul></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <form action="new.html" method="get">
+
+        <div>
+            <label for="Username">Username</label>
+            <input type="text" name="Username" id="Username" maxlength="20">
+        </div>
+        <div>
+            <label for="Password">Password</label>
+            <input type="password" name="Password" id="Password" minlength="4">
+        </div>
+        <div>
+            <label for="Captcha">Captcha </label>
+            <input type="text" name="Captcha" id="Captcha">
+        </div>
+        <div>
+            <label for="Email">Email </label>
+            <input type="email" name="Email" id="Email" required>
+        </div>
+        <div>
+            <label for="date">Date</label>
+            <input type="datetime-local" name="date" id="date">
+        </div>
+        <div>
+            <input type="checkbox" name="DEPT" id="EEE">
+            <label for="EEE">EEE</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male">
+            <label for="male">male</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="female">
+            <label for="female">female</label>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="0">
+        </div>
+        <div>
+            <label for="marks">Marks</label>
+            <input type="number" name="marks" id="marks" max="100" min="0">
+        </div>
+        <div>
+            <textarea name="" id="" rows="20" cols="30">TextArea</textarea>
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

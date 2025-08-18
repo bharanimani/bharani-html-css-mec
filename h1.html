@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heading</title>
+</head>
+<body>
+    <h1 id="head"></h1>
+    <p id="demo">Variables,Datatypes,Scoping</p>
+    <p class="text">Hi! Good Morning to all</p>
+    <p class="text">Welcome to the session Js</p>
+    <h2>Happy Independance Day</h2>
+</body>
+<script>
+    let heading = document.getElementById("head")
+    heading.innerHTML = 'Introduction of JavaScript';
+    let element = document.getElementById("demo");
+    element.style.color = 'red';
+    let items = document.getElementsByClassName("text");
+    items[0].style.color = 'green';
+    items[1].style.color = 'blue';
+    let hd = document.querySelector("h2");
+    hd.style.color = 'orange';
+</script>
+</html>
